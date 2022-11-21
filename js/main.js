@@ -3,7 +3,7 @@
 
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
-const membriTeam = [
+const membriTeamArrey = [
     {
         "nome" : "Wayne Barnett",
         "role" : " Founder & CEO",
@@ -43,10 +43,12 @@ const membriTeam = [
 
 // Andiamo a creare un ciclo "for".
 
-for(let i = 0; i < membriTeam.length; i++){
+for(let i = 0; i < membriTeamArrey.length; i++){
 
-    let membroIesimo = membriTeam[i];
-    console.log(membroIesimo.nome, membroIesimo.role, membroIesimo.image);
+    let membroIesimo = membriTeamArrey[i];
+
+    for(let chiave in membroIesimo){
+        console.log(`${chiave} ${membroIesimo[chiave]}`);
+    }
+
 }
-
-
