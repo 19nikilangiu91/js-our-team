@@ -1,6 +1,11 @@
 // Utilizzando i dati forniti, creare un array di oggetti per rappresentare i membri del team.
 // Ogni membro è caratterizzato dalle seguenti informazioni: nome, ruolo e foto.
 
+// Andiamo a selezionare il nostro "container-membri", che conterrà il nostro "membriTeamArrey".
+
+let containerMembri = document.getElementById("container-membri");
+console.log(containerMembri);
+
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
 const membriTeamArrey = [
@@ -50,5 +55,4 @@ for(let i = 0; i < membriTeamArrey.length; i++){
     for(let chiave in membroIesimo){
         console.log(`${chiave} ${membroIesimo[chiave]}`);
     }
-
 }

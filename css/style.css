@@ -1,0 +1,44 @@
+/* Container Regole*/
+
+#container{
+    width: 80%;
+    min-height: 500px;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: blue;
+}
+
+/* Titolo Regole */
+
+.titolo{
+    width: 40%;
+    min-height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    /* DEBUG */
+    background-color: red;
+}
+
+/* Paragrafo Regole */
+
+.paragrafo{
+    width: 60%;
+    min-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    /* DEBUG */
+    background-color: green;
+}
+
+/* Container-membri Regole */
+
+#container-membri{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 500px;
+    width: 100%;
+    margin: 0 auto;
+    /* DEBUG */
+    background-color: red;
+}
