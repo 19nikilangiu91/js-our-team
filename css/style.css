@@ -1,3 +1,9 @@
+/* Regole Generali */
+
+body{
+    background-color: #f5f5f1;
+}
+
 /* Container Regole*/
 
 #container{
@@ -5,7 +11,7 @@
     min-height: 500px;
     margin: 0 auto;
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
 }
 
 /* Titolo Regole */
@@ -16,7 +22,7 @@
     padding: 20px 0;
     text-align: center;
     /* DEBUG */
-    background-color: red;
+    /* background-color: red; */
 }
 
 /* Paragrafo Regole */
@@ -27,7 +33,7 @@
     padding: 20px 0;
     text-align: center;
     /* DEBUG */
-    background-color: green;
+    /* background-color: green; */
 }
 
 /* Container-membri Regole */
@@ -35,22 +41,24 @@
 #container-membri{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     /* DEBUG */
-    background-color: red;
+    /* background-color: red; */
 }
 
 .membri-team-carta{
     margin: 10px;
     margin: 20px auto;
     width: calc( 100% / 6 ) - 10px;
+    background-color: white;
     /* DEBUG */
-    background-color: green;
+    /* background-color: green; */
 }
 
 img{
     width: 100%;
+    background-color: white;
 }
 
 h3{

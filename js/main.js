@@ -6,12 +6,16 @@
 let containerMembri = document.getElementById("container-membri");
 console.log(containerMembri);
 
+// Andiamo a selezionare il nostro "output", per stampare le stesse informazioni su DOM sottoforma di stringhe.
+
+let output = document.getElementById("output");
+
 // MILESTONE 0:
 // Creare l’array di oggetti con le informazioni fornite.
 const membriTeamArrey = [
     {
         "nome" : "Wayne Barnett",
-        "role" : " Founder & CEO",
+        "role" : "Founder & CEO",
         "image" : "img/wayne-barnett-founder-ceo.jpg",
     },
     {
@@ -52,10 +56,17 @@ for(let i = 0; i < membriTeamArrey.length; i++){
 
     let membroIesimo = membriTeamArrey[i];
 
-    for(let chiave in membroIesimo){
-        console.log(`${chiave} ${membroIesimo[chiave]}`);
-    }
-}
+    console.log(membroIesimo);
 
-// MILESTONE 2:
-// Stampare le stesse informazioni su DOM sottoforma di stringhe.
+    // MILESTONE 2:
+    // Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+    let nuovaCarta = [
+        `
+        <h1 id="output">${membroIesimo.nome}, ${membroIesimo.role}, ${membroIesimo.image}</h1>
+
+        `
+    ]
+
+    containerMembri.innerHTML += nuovaCarta;
+}
