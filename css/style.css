@@ -1,7 +1,7 @@
 /* Container Regole*/
 
 #container{
-    width: 80%;
+    width: 100%;
     min-height: 500px;
     margin: 0 auto;
     /* DEBUG */
@@ -12,8 +12,8 @@
 
 .titolo{
     width: 40%;
-    min-height: 50px;
     margin: 0 auto;
+    padding: 20px 0;
     text-align: center;
     /* DEBUG */
     background-color: red;
@@ -23,8 +23,8 @@
 
 .paragrafo{
     width: 60%;
-    min-height: 100px;
     margin: 0 auto;
+    padding: 20px 0;
     text-align: center;
     /* DEBUG */
     background-color: green;
@@ -35,10 +35,28 @@
 #container-membri{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    min-height: 500px;
     width: 100%;
     margin: 0 auto;
     /* DEBUG */
     background-color: red;
+}
+
+.membri-team-carta{
+    margin: 10px;
+    margin: 20px auto;
+    width: calc( 100% / 6 ) - 10px;
+    /* DEBUG */
+    background-color: green;
+}
+
+img{
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
+
+p{
+    text-align: center;
 }

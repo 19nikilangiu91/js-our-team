@@ -12,32 +12,32 @@ const membriTeamArrey = [
     {
         "nome" : "Wayne Barnett",
         "role" : " Founder & CEO",
-        "image" : "image",
+        "image" : "img/wayne-barnett-founder-ceo.jpg",
     },
     {
         "nome" : "Angela Caroll",
         "role" : "Chief Editor",
-        "image" : "image",
+        "image" : "img/angela-caroll-chief-editor.jpg",
     },
     {
         "nome" : "Walter Gordon",
         "role" : "Office Manager",
-        "image" : "image",
+        "image" : "img/walter-gordon-office-manager.jpg",
     },
     {
         "nome" : "Angela Lopez",
         "role" : "Social Media Manager",
-        "image" : "image",
+        "image" : "img/angela-lopez-social-media-manager.jpg",
     },
     {
         "nome" : "Scott Estrada",
         "role" : "Developer",
-        "image" : "image",
+        "image" : "img/scott-estrada-developer.jpg",
     },
     {
         "nome" : "Barbara Ramos",
         "role" : "Graphic Designer",
-        "image" : "image",
+        "image" : "img/barbara-ramos-graphic-designer.jpg",
     },
 ];
 
@@ -56,3 +56,6 @@ for(let i = 0; i < membriTeamArrey.length; i++){
         console.log(`${chiave} ${membroIesimo[chiave]}`);
     }
 }
+
+// MILESTONE 2:
+// Stampare le stesse informazioni su DOM sottoforma di stringhe.
