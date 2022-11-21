@@ -63,7 +63,15 @@ for(let i = 0; i < membriTeamArrey.length; i++){
 
     let nuovaCarta = [
         `
-        <h1 id="output">${membroIesimo.nome}, ${membroIesimo.role}, ${membroIesimo.image}</h1>
+        <div class="membri-team-carta">
+            <div class="carta-image">
+                <img src="${membroIesimo.image}" alt="image ${[i + 1]}">
+            </div>
+            <div class="carta-testo">
+                <h3>${membroIesimo.nome}</h3>
+                <p>${membroIesimo.role}</p>
+            </div>
+        </div>
 
         `
     ]
